@@ -1,0 +1,46 @@
+:root {
+  --max-height: 600px;
+  --max-width: 480px;
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: #000000;
+  background-color: #11111a;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  font-weight: 500;
+  color: rgb(143, 188, 255);
+  text-decoration: inherit;
+}
+a:hover {
+  color: rgb(86, 151, 249);
+}
+
+body {
+  width: var(--max-width);
+  min-width: var(--max-width);
+  max-width: var(--max-width);
+  height: var(--max-height);
+  min-height: var(--max-height);
+  max-height: var(--max-height);
+}
+
+#app {
+  height: 100%;
+  width: 100%;
+}
